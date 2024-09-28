@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-car_data = pd.read_csv("C:/Users/Andre/Documents/Andres/Self-learning/Bootcamp/Sprint6/Project/vehicles_us.csv") #read data
+car_data = pd.read_csv("C:/Users/Andre/Documents/Andres/Self-learning/Bootcamp/Sprint6/Sprint6_Software_tools/vehicles_us.csv") #read data
 
 
 st.header('Sprint 6 Project: Software development tools') # Se crea el titulo de la pagina
