@@ -25,8 +25,8 @@ fig = px.histogram(df_filtered, x="model_year")
 # interactive Plotly graph
 st.plotly_chart(fig, use_container_width=True,)
 
-build_histogram = st.checkbox('Construir un histograma')
-build_scatter = st.checkbox('Construir un diagrama de dispersión')
+build_histogram = st.checkbox('Histograma de kilometraje')
+build_scatter = st.checkbox('Diagrama de dispersión precio vs kilometraje')
 
 
         
